@@ -14,6 +14,7 @@ export default function HomeSection() {
 			...homeState,
 			activeSection: 'home',
 		})
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [isVisible])
 
 	const socialLinks = [

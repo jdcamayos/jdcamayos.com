@@ -11,6 +11,7 @@ export default function ContactSection() {
 			...homeState,
 			activeSection: 'contact',
 		})
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [isVisible])
 
 	const [stateContact, setStateContact] = useState({

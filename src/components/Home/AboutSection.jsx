@@ -12,6 +12,7 @@ export default function AboutSection() {
 			...homeState,
 			activeSection: 'about',
 		})
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [isVisible])
 
 	const [aboutState, setAboutState] = useState({
